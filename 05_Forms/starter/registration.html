@@ -5,6 +5,7 @@
     <style>
         ul {
             list-style: none;
+            color: red
         }
         
         li {
@@ -23,7 +24,32 @@
         <img src="images/logo.png" alt="QA Corporate Logo">
         <h1 style="background-image:url(images/trainer.jpg); padding: 4em 1em; color: white; background-size: cover">Course Registration</h1> 
     </header>
-    
+    <form>
+        <fieldset>
+        <legend>Your details</legend>
+        <ul>
+            <li>
+                <label>First name</label>
+                <input type="text"autofocus required >
+            </li>
+            <li>
+                <label>Surname</label>
+                <input type="text" required>
+            </li>
+            <li>
+                <label>Position/Role</label>
+                <input type="text" required>
+            </li>
+            <li>
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="you@domain.com" required>
+            </li>
+        </ul>
+        </fieldset>
+        <fieldset>
+            <button>Submit</button>
+        </fieldset>
+    </form>
     <!-- insert form here -->
     
 </body>
