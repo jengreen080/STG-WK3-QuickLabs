@@ -44,7 +44,38 @@
                 <label>Email</label>
                 <input type="email" name="email" id="email" placeholder="you@domain.com" required>
             </li>
+            <li>
+                <label>Phone 000-00-000</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </li>
         </ul>
+        </fieldset>
+        <fieldset>
+            Course Details
+            <select>
+                <option>
+                    Programming with JS
+                </option>
+                <option>
+                    Developing Web Apps
+                </option>
+                <option>
+                    Developing Responsive Websites
+                </option>
+                <option>
+                    The Power of JQuery
+                </option>
+            </select>
+            <ul>
+                <li>
+                    <label>No. of Delegates</label>
+                    <input type="number">
+                </li>
+                <li>
+                    <label>Date</label>
+                    <input type="date" id="date" name="date">
+                </li>
+            </ul>
         </fieldset>
         <fieldset>
             <button>Submit</button>
